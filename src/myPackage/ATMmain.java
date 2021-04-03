@@ -11,7 +11,7 @@ public class ATMmain {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("ATM Machine");
 		ATM atm = new ATM(1111);
-		System.out.println("Please Enter Your pin");
+		System.out.println("Please Enter Your pin number");
 
 		int Number = scanner.nextInt();
 		Person person = new Person("Harepreet kaur", Number, "ABCD1234", 2800, 4000, 5000);
